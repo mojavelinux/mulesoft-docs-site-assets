@@ -12,7 +12,6 @@
 .article-content{
   background: white;
   padding: 20px 16px 70px 26px;
-  word-wrap: break-word;
 
   .sect1 {
     border: none;
@@ -183,7 +182,6 @@
   border: none;
   border-bottom: 1px solid #e9e9e9;
   max-width: 200px;
-  word-wrap: break-word;
   font-size: 14px;
 
   strong {
@@ -278,12 +276,8 @@ pre > code {
   }
   .listingblock {
     > .content {
-      pre.CodeRay {
-        white-space: normal;
-        > code {
-          display: block;
-          white-space: normal;
-        }
+      pre.CodeRay > code {
+        display: block;
       }
       > pre:not(.CodeRay) {
         border-left: 4px solid @mulesoft-light-grey;
@@ -315,10 +309,6 @@ pre > code {
           border-right: 4px solid @mulesoft-light-grey;
           padding: 10px 10px 10px 45px;
           width: 100%;
-          > pre {
-            white-space: pre;
-            word-wrap: normal;
-          }
         }
       }
     }
@@ -337,10 +327,6 @@ pre > code {
 }
 
 /* FF Solution  */
-.article-content .admonitionblock td.content,
-.article-content p {
-  word-wrap: break-word;
-}
 .article-content.col-md-7 .admonitionblock td.content,
 .article-content.col-md-7 .admonitionblock .article-content p {
   max-width: 400px;
