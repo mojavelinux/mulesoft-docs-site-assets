@@ -101,7 +101,7 @@
             <li class="menu__item"><a href="http://training.mulesoft.com/" class="menu__link">Certification</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/champions" class="menu__link">Champions</a></li>
             <li class="menu__item"><a href="https://support.mulesoft.com/s/" class="menu__link">Support</a></li>
-            <li class="menu__item"><a href="http://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
+            <li class="menu__item"><a href="https://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
           </ul>
         </li>
         <li class="menu__item">
@@ -127,7 +127,7 @@
             </li>
             <li class="menu__item"><a href="https://www.mulesoft.org/jira/browse/MULE" class="menu__link">Issue Tracker</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/champions" class="menu__link">Champions</a></li>
-            <li class="menu__item"><a href="http://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
+            <li class="menu__item"><a href="https://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
             <li class="menu__item"><a href="http://s2.developer.mulesoft.com/jobs.html" class="menu__link">Jobs</a></li>
           </ul>
         </li>
@@ -246,7 +246,7 @@
       <div class="footer__menu-tac">
         <ul class="footer__menu">
           <li class="footer__menu-item"><a href="https://www.mulesoft.com/">Mulesoft.com</a></li>
-          <li class="footer__menu-item"><a href="http:/blogs.mulesoft.com/">Blog</a></li>
+          <li class="footer__menu-item"><a href="https:/blogs.mulesoft.com/">Blog</a></li>
         </ul>
         <div class="footer__tac">
           MuleSoft provides the most widely used integration platform for connecting SaaS and enterprise applications in the cloud and on-premise. Delivered as a packaged integration experience, CloudHub™ and Mule ESB™ (Enterprise Service Bus) are built on proven open source technology for the fastest, most reliable on-premise and cloud integration without vendor lock-in.
@@ -263,7 +263,7 @@
         <li class="social-item"><a href="https://twitter.com/muledev" target="_blank" class="social-link social-link-twitter"></a></li>
         <li class="social-item"><a href="https://www.facebook.com/MuleSoft" target="_blank" class="social-link social-link-facebook"></a></li>
         <li class="social-item"><a href="mailto:devrel@mulesoft.com" target="_blank" class="social-link social-link-email"></a></li>
-        <li class="social-item"><a href="" target="_blank" class="social-link social-link-youtube"></a></li>
+        <li class="social-item"><a href="https://videos.mulesoft.com" target="_blank" class="social-link social-link-youtube"></a></li>
       </ul>
       <div class="footer__copyright"><span>©2017</span> MuleSoft, INC.</div>
     </div>
