@@ -263,7 +263,7 @@
         <li class="social-item"><a href="https://twitter.com/muledev" target="_blank" class="social-link social-link-twitter"></a></li>
         <li class="social-item"><a href="https://www.facebook.com/MuleSoft" target="_blank" class="social-link social-link-facebook"></a></li>
         <li class="social-item"><a href="mailto:devrel@mulesoft.com" target="_blank" class="social-link social-link-email"></a></li>
-        <li class="social-item"><a href="" target="_blank" class="social-link social-link-youtube"></a></li>
+        <li class="social-item"><a href="https://videos.mulesoft.com/" target="_blank" class="social-link social-link-youtube"></a></li>
       </ul>
       <div class="footer__copyright"><span>©2017</span> MuleSoft, INC.</div>
     </div>
