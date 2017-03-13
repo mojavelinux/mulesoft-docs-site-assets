@@ -92,6 +92,7 @@
                 <li class="menu__item"><a href="https://developer.mulesoft.com/getting-started/studio" class="menu__link">Studio</a></li>
               </ul>
             </li>
+            <li class="menu__item"><a href="https://training.mulesoft.com/" class="menu__link">Training</a></li>
             <li class="menu__item"><a href="https://docs.mulesoft.com/" class="menu__link">Documentation</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/tutorials-and-howtos" class="menu__link">Tutorials &amp; HowTos</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/webinars-and-videos" class="menu__link">Webinars &amp; Videos</a></li>
@@ -249,7 +250,7 @@
           <li class="footer__menu-item"><a href="http:/blogs.mulesoft.com/">Blog</a></li>
         </ul>
         <div class="footer__tac">
-          MuleSoft provides the most widely used integration platform for connecting SaaS and enterprise applications in the cloud and on-premise. Delivered as a packaged integration experience, CloudHub™ and Mule ESB™ (Enterprise Service Bus) are built on proven open source technology for the fastest, most reliable on-premise and cloud integration without vendor lock-in.
+          MuleSoft provides the most widely used integration platform for connecting <a href = "https://www.mulesoft.com/platform/saas">SaaS</a> and enterprise applications in the cloud and on-premise. Delivered as a packaged integration experience, <a href= "https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration">CloudHub™</a> and Mule ESB™ (<a href = "https://www.mulesoft.com/platform/soa/mule-esb-open-source-esb">Enterprise Service Bus</a>) are built on proven open source technology for the fastest, most reliable on-premise and cloud integration without vendor lock-in.
         </div>
       </div>
     </div>
