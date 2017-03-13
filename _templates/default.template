@@ -198,7 +198,7 @@
       {{ page.version }}
     </div>
   </div>
-  <div class="row">
+  <div class="row row-flex row-flex-wrap">
     <div class="sidebar-nav col-md-3" data-swiftype-index="false">
       <nav>
         <div class="marker"></div>
