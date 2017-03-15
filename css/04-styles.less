@@ -67,7 +67,7 @@ body{
 }
 
 // FIXME this nth-child is very ambiguous (doesn't consider CSS class)
-.container-fluid .row:nth-child(2) {
+.container .row:nth-child(2) {
   background: #fff; /* Old browsers */
   background: -moz-linear-gradient(left,   #f4f5f6,#f4f5f6 25%,#ffffff 25%,#ffffff 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f4f5f6), color-stop(25%,#f4f5f6), color-stop(25%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
@@ -78,7 +78,7 @@ body{
 }
 
 @media (max-width: 992px) {
-  .container-fluid .row:nth-child(2) {
+  .container .row:nth-child(2) {
     background: #fff;
   }
 }
@@ -116,29 +116,5 @@ a:focus {
 @media (min-width: 1440px) {
   .container {
     width: 1400px;
-  }
-}
-.row-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex: 1 1 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .sidebar-nav {
-    width: 100%;
-  }
-  .sub-header .search-box {
-    width: 50%;
-  }
-  div.main {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .row-flex {
-    display: block !important;
   }
 }
