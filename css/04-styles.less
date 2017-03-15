@@ -129,14 +129,14 @@ a:focus {
 
 @media screen and (max-width: 768px) {
   .sidebar-nav {
-    width: 100%;
+    width: 100% !important;
   }
   .sub-header .search-box {
-    width: 50%;
+    width: 50% !important;
   }
-  div.main {
-    margin-right: 0;
-    margin-left: 0;
+  header.header>.container-fluid, div.main, div.footer>.container-fluid {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .row-flex {
     display: block !important;
