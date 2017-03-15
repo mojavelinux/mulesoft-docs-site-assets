@@ -160,7 +160,7 @@
         <a href="#" class="tree-icon glyphicon glyphicon-th-list"><span>Nav</span></a>
       </div>
       <div class="toolbar-dropdown edit-github">
-        <a href="{{ page.github-link }}" target="_blank"><span>Edit on GitHub</span></a>
+        <a href="{{ page.github-link }}" target="_blank"><span>Edit Beta Docs on GitHub</span></a>
       </div>
       <div class="toolbar-dropdown helpful">
         <div class="btn btn-default dropdown-toggle" id="dropdown-helpful">
