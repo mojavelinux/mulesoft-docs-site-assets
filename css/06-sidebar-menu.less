@@ -25,6 +25,10 @@
       font-size: 13px;
       text-decoration: none;
       width: 100%;
+
+      &:hover {
+        color: #00a2df;
+      }
     }
     i.glyphicon-chevron-right, i.glyphicon-chevron-down {
       display: block;
@@ -43,6 +47,11 @@
         font-size: 14px;
       }
     }
+    i.glyphicon-chevron-right:hover::before {
+      background: url('../img/nav-collapse-hover.svg') center center no-repeat;
+      left: -3px;
+      top: 8px;
+    }
     i.glyphicon-chevron-right::before {
       background: url('../img/nav-collapse.svg') center center no-repeat;
       left: -3px;
@@ -50,6 +59,11 @@
     }
     i.glyphicon-chevron-down::before {
       background: url('../img/nav-expand.svg') center center no-repeat;
+      left: -4px;
+      top: 9px;
+    }
+    i.glyphicon-chevron-down:hover::before {
+      background: url('../img/nav-expand-hover.svg') center center no-repeat;
       left: -4px;
       top: 9px;
     }
@@ -132,8 +146,14 @@
   nav ul ul i.glyphicon-chevron-right::before,nav ul ul ul i.glyphicon-chevron-right::before {
     background: url(../img/nav-collapse.svg) center center no-repeat;
   }
+  nav ul ul i.glyphicon-chevron-right:hover::before,nav ul ul ul i.glyphicon-chevron-right:hover::before {
+    background: url(../img/nav-collapse-hover.svg) center center no-repeat;
+  }
   nav ul ul i.glyphicon-chevron-down::before,nav ul ul ul i.glyphicon-chevron-down::before {
     background: url(../img/nav-expand.svg) center center no-repeat;
+  }
+  nav ul ul i.glyphicon-chevron-down:hover::before,nav ul ul ul i.glyphicon-chevron-down:hover::before {
+    background: url(../img/nav-expand-hover.svg) center center no-repeat;
   }
 }
 
