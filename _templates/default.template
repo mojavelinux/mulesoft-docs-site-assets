@@ -211,10 +211,11 @@
     <!-- END sidebar-nav -->
     <!-- START version notification -->
 
+    {{ page.version-notification }}
+
     <!-- END older version notification -->
     <!-- START article content -->
-    <div class="article-content col-md-7 col-xs-12">
-      {{ page.version-notification }}
+    <div class="article-content col-md-7">
       {{ page.breadcrumb }}
       <h1>{{ page.title }}</h1>
       {{ page.content }}

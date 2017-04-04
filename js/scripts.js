@@ -8,7 +8,6 @@ $(function() {
     initContentToc();
     fixEncoding();
     $('body').show();
-    $('.older-version-notification').removeClass('col-md-9');
 });
 
 $(window).load(function() {
