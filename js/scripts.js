@@ -32,7 +32,7 @@ function initFancyBox() {
 function initSubHeader() {
     var header = $('.header'),
         subHeader = $('.sub-header'),
-        container = $('.container-fluid'),
+        container = $('.container'),
         footer = $('.footer'),
         treeIcon = $('.tree-icon'),
         searchField = $('.search-field'),
@@ -151,14 +151,14 @@ function initContentToc() {
                     var scrollFrom = toc.scrollTop(),
                         scrollTo = scrollFrom + linkTop;
                     if (scrollTo < scrollMax || (scrollTo >= scrollMax && scrollFrom < scrollMax)) {
-                        scrollToActiveLink(scrollTo);
+                        //scrollToActiveLink(scrollTo);
                     }
                 }
                 return !(matchFound = true);
             }
         });
         if (!matchFound && links.length) {
-            if (scrollable && toc.scrollTop()) scrollToActiveLink(0);
+           // if (scrollable && toc.scrollTop()) scrollToActiveLink(0);
             // NOTE enable the following line to highlight first element if no element is matched
             //links.last().addClass('active');
         }
