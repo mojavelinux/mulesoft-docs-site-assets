@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>{{ page.title }} // MuleSoft Documentation </title>
   <link rel="shortcut icon" href="/favicon.ico"/>
-  <link rel="stylesheet" type="text/css" href="/css/vendor.min.css?t=1489712233">
-  <link rel="stylesheet" type="text/css" href="/css/mulesoft.min.css?t=1489712233">
+  <link rel="stylesheet" type="text/css" href="/css/vendor.min.css?t=1493055915">
+  <link rel="stylesheet" type="text/css" href="/css/mulesoft.min.css?t=1493055915">
   <script src="/js/jquery-1.11.2.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/jquery.fancybox.pack.js"></script>
   <script src="/js/last-campaign.min.js"></script>
   <script src="/js/trafficSource.js"></script>
-  <script src="/js/scripts.js?t=1489712233"></script>
+  <script src="/js/scripts.js?t=1493055915"></script>
 
   {{ page.canonical }}
   {{ page.metadata }}
@@ -92,6 +92,7 @@
                 <li class="menu__item"><a href="https://developer.mulesoft.com/getting-started/studio" class="menu__link">Studio</a></li>
               </ul>
             </li>
+            <li class="menu__item"><a href="https://training.mulesoft.com/" class="menu__link">Training</a></li>
             <li class="menu__item"><a href="https://docs.mulesoft.com/" class="menu__link">Documentation</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/tutorials-and-howtos" class="menu__link">Tutorials &amp; HowTos</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/webinars-and-videos" class="menu__link">Webinars &amp; Videos</a></li>
@@ -101,7 +102,7 @@
             <li class="menu__item"><a href="http://training.mulesoft.com/" class="menu__link">Certification</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/champions" class="menu__link">Champions</a></li>
             <li class="menu__item"><a href="https://support.mulesoft.com/s/" class="menu__link">Support</a></li>
-            <li class="menu__item"><a href="https://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
+            <li class="menu__item"><a href="http://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
           </ul>
         </li>
         <li class="menu__item">
@@ -127,7 +128,7 @@
             </li>
             <li class="menu__item"><a href="https://www.mulesoft.org/jira/browse/MULE" class="menu__link">Issue Tracker</a></li>
             <li class="menu__item"><a href="https://developer.mulesoft.com/champions" class="menu__link">Champions</a></li>
-            <li class="menu__item"><a href="https://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
+            <li class="menu__item"><a href="http://blogs.mulesoft.com" class="menu__link">Blogs</a></li>
             <li class="menu__item"><a href="http://s2.developer.mulesoft.com/jobs.html" class="menu__link">Jobs</a></li>
           </ul>
         </li>
@@ -246,14 +247,10 @@
       <div class="footer__menu-tac">
         <ul class="footer__menu">
           <li class="footer__menu-item"><a href="https://www.mulesoft.com/">Mulesoft.com</a></li>
-          <li class="footer__menu-item"><a href="https://blogs.mulesoft.com/">Blog</a></li>
-	  <li class="footer__menu-item"><a href="https://www.mulesoft.com/content/terms-service">Terms</a></li>
-	  <li class="footer__menu-item"><a href="https://www.mulesoft.com/privacy-policy">Privacy</a></li>
-	  <li class="footer__menu-item"><a href="https://www.mulesoft.com/contact">Contact</a></li>
-	</ul>
+          <li class="footer__menu-item"><a href="http:/blogs.mulesoft.com/">Blog</a></li>
         </ul>
         <div class="footer__tac">
-MuleSoft provides a widely used <a href="https://www.mulesoft.com/platform/enterprise-integration">integration platform</a> for connecting SaaS and enterprise applications in the cloud and on-premise. Delivered as a unified integration experience, <a href="https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration">CloudHub&#8482</a> and <a href="https://www.mulesoft.com/platform/soa/mule-esb-open-source-esb">Mule ESB&#8482</a> (Enterprise Service Bus) are built on proven open source technology for fast and reliable on-premise and cloud integration without vendor lock-in.
+          MuleSoft provides the most widely used integration platform for connecting <a href = "https://www.mulesoft.com/platform/saas">SaaS</a> and enterprise applications in the cloud and on-premise. Delivered as a packaged integration experience, <a href= "https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration">CloudHub™</a> and Mule ESB™ (<a href = "https://www.mulesoft.com/platform/soa/mule-esb-open-source-esb">Enterprise Service Bus</a>) are built on proven open source technology for the fastest, most reliable on-premise and cloud integration without vendor lock-in.
         </div>
       </div>
     </div>
@@ -267,7 +264,7 @@ MuleSoft provides a widely used <a href="https://www.mulesoft.com/platform/enter
         <li class="social-item"><a href="https://twitter.com/muledev" target="_blank" class="social-link social-link-twitter"></a></li>
         <li class="social-item"><a href="https://www.facebook.com/MuleSoft" target="_blank" class="social-link social-link-facebook"></a></li>
         <li class="social-item"><a href="mailto:devrel@mulesoft.com" target="_blank" class="social-link social-link-email"></a></li>
-        <li class="social-item"><a href="https://videos.mulesoft.com" target="_blank" class="social-link social-link-youtube"></a></li>
+        <li class="social-item"><a href="https://videos.mulesoft.com/" target="_blank" class="social-link social-link-youtube"></a></li>
       </ul>
       <div class="footer__copyright"><span>©2017</span> MuleSoft, INC.</div>
     </div>
@@ -415,6 +412,6 @@ MuleSoft provides a widely used <a href="https://www.mulesoft.com/platform/enter
     document.getElementsByTagName('head')[0].appendChild(s);
   })();
 </script>
-<script src="/js/header-menu.js?t=1489712233"></script>
+<script src="/js/header-menu.js?t=1493055915"></script>
 </body>
 </html>
