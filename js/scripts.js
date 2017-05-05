@@ -5,6 +5,7 @@ $(function() {
     initSubHeader();
     // QUESTION should initSiteNav come before initSubHeader? Keep in mind, initSubHeader collapses nav
     initSiteNav();
+    scrolltoActive();
     initContentToc();
     fixEncoding();
     $('body').show();
@@ -253,16 +254,16 @@ function initSiteNav() {
             var navHeight = Math.min(articleHeight, window.innerHeight - (nav.offset().top - $(window).scrollTop()));
             // NOTE using height instead of max-height provides a slighly smoother experience
             // NOTE due to layout, height of sidebar column must exceed height of notification bar
-            //nav.css('height', navHeight).parent().css('height', navHeight);
+            nav.css('height', navHeight).parent().css('height', navHeight);
         },
         lockNavHeight = function() {
             var navHeight = Math.min(articleHeight, window.innerHeight - subHeader.height());
             // NOTE using height instead of max-height provides a slighly smoother experience
             // NOTE due to layout, height of sidebar column must exceed height of notification bar
-            //nav.css('height', navHeight).parent().css('height', navHeight);
+            nav.css('height', navHeight).parent().css('height', navHeight);
         },
         updateNavWidth = function() {
-            nav.css('width', Math.floor(nav.parent()[0].getBoundingClientRect().width));
+            nav.css('width', Math.floor(nav.parent()[0].getBoundingClientRect().width)+15);
         },
         electAffixBehavior = function(e) {
           // NOTE effectively disable affix behavior when nav height is constrained to article column height
@@ -315,7 +316,7 @@ function initSiteNav() {
 
     // NOTE order of event registration is intentional
     nav.on('affix.bs.affix', electAffixBehavior);
-    //nav.affix({ offset: calcAffixOffset() });
+    nav.affix({ offset: calcAffixOffset() });
     // NOTE affixed events only triggered if subject is visible
     nav.on('init affixed-top.bs.affix affixed.bs.affix affixed-bottom.bs.affix', updateNavDimensions).trigger('init');
     $(window).resize(updateNavDimensions);
@@ -409,6 +410,18 @@ function fixEncoding() {
         var curCont = $(this).text();
         $(this).html(curCont.replace('&amp;', '&'));
     });
+}
+function scrolltoActive() {
+    var divarticleheight = $('div.article-content').height();
+    var sidebarnavheight = $('div.sidebar-nav').height();
+    var sidebarnavheightnav = $('div.sidebar-nav nav');
+    var navHeight_test = Math.min(divarticleheight, window.innerHeight - (sidebarnavheightnav.offset().top - $(window).scrollTop()));
+
+    if(isNotSmallScreen()) {
+        $('div.sidebar-nav nav').animate({
+            scrollTop: $('div.sidebar-nav nav ').find('li.active').position().top
+        }, 'slow');
+    }
 }
 
 // Marketo Last campaing
