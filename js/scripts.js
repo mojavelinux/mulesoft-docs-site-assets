@@ -33,7 +33,7 @@ function initFancyBox() {
 function initSubHeader() {
     var header = $('.header'),
         subHeader = $('.sub-header'),
-        container = $('.container'),
+        container = $('.container-fluid'),
         footer = $('.footer'),
         treeIcon = $('.tree-icon'),
         searchField = $('.search-field'),

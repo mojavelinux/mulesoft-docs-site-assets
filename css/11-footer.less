@@ -13,16 +13,89 @@
 
 .footer__connect {
   // temp while we implement nice newsletter form
-  display: none;
+  display: block;
   margin-bottom: @footerSpace;
+
+  .footer__connect-title {
+    color: #fff;
+    font-family: openSans, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 14px 0 9px;
+    padding: 0;
+    text-align: left;
+  }
+  form.mktoForm {
+    position: relative;
+    padding-top: 0 !important;
+
+    .mktoOffset {
+       display: none !important;
+    }
+    label.mktoLabel {
+      display:none !important;
+    }
+    .mktoFieldWrap input {
+      width: 250px !important;
+      height: 40px;
+      background-color: #3a3a3a;
+      padding: 0 0 0 10px !important;
+      color: #fff !important;
+      border: none !important;
+      box-shadow: none;
+      font-size: 13px !important;
+    }
+    span.mktoButtonWrap button.mktoButton {
+      width: 31px !important;
+      height: 31px !important;
+      color: #00a1e1 !important;
+      border: 1px solid #00a1e1 !important;
+      border-radius: 15px !important;
+      font-family: openSans,arial,helvetica,sans-serif !important;
+      font-size: 20px !important;
+      line-height: 0 !important;
+      vertical-align: middle;
+      float: left;
+      padding: 0 !important;
+      background: none !important;
+      min-height: 31px;
+      text-indent: -9999px;
+      box-shadow: none !important;
+      text-shadow:none !important;
+      font-weight: normal !important;
+      margin-top: 7px !important;
+    }
+    .mktoButton:after {
+      content: ">";
+      text-indent: 0;
+      display: block;
+      line-height: initial;
+    }
+    input.mktoInvalid {
+      border: none !important;
+
+      &:focus {
+        color: #fff !important;
+      }
+    }
+    div.mktoGutter {
+      display: none !important;
+    }
+  }
 }
 
-.footer__connect-title {
-  color: #fff;
-  font-family: openSans, Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  margin: 0;
+@media screen and (max-width: 480px) {
+  form.mktoForm {
+    padding: 0 !important;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .footer__connect {
+    float: none;
+  }
+}
+
+
 
 .footer__menu-tac {
   flex: 1 1 0;
